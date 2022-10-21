@@ -1,9 +1,10 @@
-import NavBar from "../components/NavBar";
+import MyHead from "../components/Head"
 
 export default function About() {
     return (
         <div>
-            <h1>about page</h1>
+            <MyHead title="About"/>
+            <h1>About page</h1>
         </div>
     )
 }

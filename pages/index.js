@@ -1,7 +1,9 @@
+import MyHead from "../components/Head"
+
 export default function Home() {
     return (
         <div>
-            <Head title="Home"/>
+            <MyHead title="Home"/>
             <h1>Home Page</h1>
         </div>
     ) 

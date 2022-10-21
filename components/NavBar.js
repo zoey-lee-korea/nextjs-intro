@@ -15,10 +15,7 @@ export default function NavBar() {
 
             <style jsx>{`
                 .active {
-                    background-color : tomato;
-                }
-                a {
-                    color : blue;
+                    color : tomato;
                 }
             `}</style>
         </nav>

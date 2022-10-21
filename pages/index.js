@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react"
 import MyHead from "../components/Head"
 
-const API_KEY = '10923b261ba94d897ac6b81148314a3f';
-
 export default function Home() {
     const [movies, setMovies] = useState();
     useEffect(()=> {
         (async () => {
-            const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`);
+            const response = await fetch(`/api/movies`);
             const { results }  = await response.json();
             setMovies(results);
         })();
@@ -19,7 +17,7 @@ export default function Home() {
             {!movies && <h3>Loading...</h3>}
             {movies?.map((movie) => (
                 <div className="movie" key={movie.id}>
-                     <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} />
+                    <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} />
                     <h4>{movie.title}</h4>
                 </div>
             ))}

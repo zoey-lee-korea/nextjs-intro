@@ -1,4 +1,5 @@
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar"
+import "../styles/globals.css"
 
 export default function MyApp({Component, pageProps}) {
     return (
@@ -9,7 +10,7 @@ export default function MyApp({Component, pageProps}) {
                 a {
                     color: green;
                 }
-                `}</style>
+            `}</style>
         </div>
     )
 }

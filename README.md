@@ -5,14 +5,12 @@
   
 강의노트
 ---
-1. Project 생성
-NextJS 프로젝트 생성 : `npx create-next-app@latest`  
-typescript도 포함된 프로젝트 생성 : `--typescript` 옵션 추가  
-  
-2. Git Repository 생성  
-Git 콘솔에서 new repository 생성  
-`git remote add origin https://github.com/zoey-lee-korea/nextjs-intro.git`  
-`git push -u origin main`  
-  
-3. [Library vs Framework / Pages](https://github.com/zoey-lee-korea/nextjs-intro/pull/1)
-4. [static-pre-rendering](https://github.com/zoey-lee-korea/nextjs-intro/pull/2)
+1. #1.0 Library vs Framwork, #1.1 Pages : [강의노트 #1](https://github.com/zoey-lee-korea/nextjs-intro/pull/1)
+2. #1.2 Static pre rendering : [강의노트 #2](https://github.com/zoey-lee-korea/nextjs-intro/pull/2)
+3. #1.3 Routing : [강의노트 #3](https://github.com/zoey-lee-korea/nextjs-intro/pull/3)
+4. #1.4 CSS Modules : [강의노트 #4](https://github.com/zoey-lee-korea/nextjs-intro/pull/5)
+5. #1.5 Styles JSX : [강의노트 #5](https://github.com/zoey-lee-korea/nextjs-intro/pull/6)
+6. #1.6 Custom App : [강의노트 #6](https://github.com/zoey-lee-korea/nextjs-intro/pull/7)
+7. #2.0 Patterns(Layout) : [강의노트 #7](https://github.com/zoey-lee-korea/nextjs-intro/pull/8)
+8. #2.1 Fetching Data : [강의노트 #8](https://github.com/zoey-lee-korea/nextjs-intro/pull/9)
+9. #2.2 Redirect,Rewrite : [강의노트 #9](https://github.com/zoey-lee-korea/nextjs-intro/pull/10)
